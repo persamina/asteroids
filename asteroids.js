@@ -6,6 +6,7 @@ var Bullet  = require('./lib/bullet.js');
 var Game = require('./lib/game.js');
 var GameView  = require('./lib/gameView.js');
 
+//Set to global window
 window.MovingObject = MovingObject;
 window.Asteroid = Asteroid;
 window.Util = Util;
